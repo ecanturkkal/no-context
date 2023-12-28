@@ -1,3 +1,3 @@
 # no-context
 
-Merhaba
+A web app to study standard modules and best practices.
