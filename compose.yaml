@@ -1,0 +1,8 @@
+services:
+  no-context-api:
+    build:
+      context: .
+    container_name: no-context-api
+    ports:
+      - '3000:8000'
+    restart: "always"
