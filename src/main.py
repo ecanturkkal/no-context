@@ -1,6 +1,6 @@
-from fastapi import FastAPI
 import uvicorn
-from routers import todos, hello_world
+from fastapi import FastAPI
+from src.routers import hello_world, todos
 
 
 def get_application() -> FastAPI:
